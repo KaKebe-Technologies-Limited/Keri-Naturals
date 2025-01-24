@@ -660,15 +660,18 @@ h6 {
 .footer .copyright {
   padding: 25px 0;
   border-top: 1px solid color-mix(in srgb, var(--default-color), transparent 90%);
+  background-color: black;
 }
 
 .footer .copyright p {
   margin-bottom: 0;
+  color: white;
 }
 
 .footer .credits {
   margin-top: 6px;
   font-size: 13px;
+  color: white;
 }
 
 /*--------------------------------------------------------------
@@ -693,7 +696,7 @@ h6 {
   border-radius: 50%;
   width: 60px;
   height: 60px;
-  animation: animate-preloader 1.5s linear infinite;
+  animation: animate-preloader 1s linear infinite;
 }
 
 @keyframes animate-preloader {
@@ -865,7 +868,8 @@ section,
   position: relative;
   padding: 120px 0 60px 0;
   display: flex;
-  align-items: center;
+  align-items: center;;
+  background-color: #444444;
 }
 
 .hero h1 {
@@ -873,6 +877,7 @@ section,
   font-size: 48px;
   font-weight: 700;
   line-height: 56px;
+  color: orange;
 }
 
 .hero p {
@@ -880,6 +885,7 @@ section,
   margin: 5px 0 30px 0;
   font-size: 20px;
   font-weight: 400;
+  color: white;
 }
 
 .hero .btn-get-started {
@@ -963,7 +969,7 @@ section,
 --------------------------------------------------------------*/
 .featured-services {
   --surface-color: color-mix(in srgb, var(--default-color), transparent 96%);
-  padding-top: 0;
+  padding-top: 5%;
 }
 
 .featured-services .service-item {
@@ -1048,6 +1054,7 @@ section,
 --------------------------------------------------------------*/
 .stats {
   padding-top: 0;
+  background-color: black;
 }
 
 .stats .stats-item {
@@ -1063,7 +1070,7 @@ section,
 }
 
 .stats .stats-item p {
-  color: color-mix(in srgb, var(--default-color), transparent 40%);
+  color: white;
   padding: 0;
   margin: 0;
   font-family: var(--heading-font);
@@ -1443,7 +1450,7 @@ section,
 # Contact Section
 --------------------------------------------------------------*/
 .contact .info-wrap {
-  background-color: var(--surface-color);
+  background-color: orange;
   box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
   padding: 30px;
 }
