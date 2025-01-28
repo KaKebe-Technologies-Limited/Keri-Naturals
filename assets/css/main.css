@@ -526,7 +526,7 @@ h6 {
 }
 
 .footer .footer-newsletter {
-  background-color: color-mix(in srgb, var(--default-color), transparent 97%);
+  background-color: color-mix(in srgb, var(--background-color), transparent 97%);
   padding: 50px 0;
 }
 
