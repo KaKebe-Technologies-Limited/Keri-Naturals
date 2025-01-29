@@ -53,10 +53,15 @@
   /**
    * Preloader
    */
+  /**
+   * Preloader
+   */
   const preloader = document.querySelector('#preloader');
   if (preloader) {
     window.addEventListener('load', () => {
-      preloader.remove();
+      setTimeout(() => {
+        preloader.remove();
+      }, 3000); // 3000 milliseconds = 3 seconds
     });
   }
 
